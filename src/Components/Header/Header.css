@@ -1,0 +1,39 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mainHeader{
+    background: white;
+    padding: 20px 60Px;
+    box-shadow: 0 3px 6px #00000026;
+}
+
+.mainHeader .rightNavs a{
+    margin-left: 35px;
+    color: black;
+}
+
+.mainHeader .rightNavs .primButton, .mainHeader .rightNavs .secButton{
+    margin-left: 35px;
+}
+
+.mainHeader .rightNavs a:hover{
+    text-decoration: none;
+    color: var(--primColor);
+}
+
+.mainHeader .rightNavs a.active{
+    color: var(--primColor);
+}
+
+.MuiAccordionDetails-root, .MuiCollapse-wrapper, .MuiCollapse-container.MuiCollapse-entered{
+    position: absolute;
+    top: 120px;
+    margin: 0;
+    width: 100%;
+}
+
+.MuiCollapse-container.MuiCollapse-entered{
+    width: 100%;
+}
+

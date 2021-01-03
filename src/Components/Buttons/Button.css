@@ -1,0 +1,18 @@
+.primButton button{
+    background: rgb(19,82,111);
+    background: var(--primGrad);
+    color: white;
+    text-transform: unset !important;
+    height: 45px;
+}
+
+.secButton button{
+    color: var(--primColor);
+    border: 1px solid var(--primColor);
+    text-transform: unset !important;
+    height: 45px;
+}
+
+button:focus{
+    outline: none;
+}

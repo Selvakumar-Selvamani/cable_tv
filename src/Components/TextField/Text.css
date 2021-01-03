@@ -1,0 +1,14 @@
+.txtField .MuiInputBase-root{
+    width: 100%;
+    min-height: 40px;
+    margin-top: 20px !important;
+    margin-bottom: 5px;
+}
+
+.txtField .MuiInput-underline:after{
+    border-bottom: 3px solid var(--primColor);
+}
+
+.txtField .MuiFormLabel-root.Mui-focused{
+    color: var(--primColor);
+}

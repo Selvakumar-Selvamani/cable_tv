@@ -1,0 +1,333 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+:root{
+  --primGrad:linear-gradient(90deg, rgba(19,82,111,1) 0%, rgba(38,163,221,1) 100%);
+  --primColor:#25A1DB;
+  --secColor: #135471;
+  --accentColor: #6F6F6F;
+}
+
+.hmPageContainer .bannerWrapper .bannerImgWrapper{
+  max-width: 100vw; 
+}
+
+.hmPageContainer .bannerWrapper .bannerImgWrapper .slick-slide img{
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.bannerImgWrapper .slick-dots{
+  bottom: 10px;
+}
+
+.hmPageContainer .chnlLogoCarousel .crlHd{
+  font-weight: bold;
+  color: #dddddd;
+  font-size: 25px;
+}
+
+.hmPageContainer .logoCarWrapper .imgWrapper img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hmPageContainer .whyUsWrppr .ttleTxt{
+  color: var(--accentColor);
+  font-weight: bold;
+}
+
+.hmPageContainer .whyUsWrppr .ttleTxt .ttleClr{
+  background: var(--primGrad);
+  font-weight: bold;
+  color: white;
+  padding: 8px;
+  border-radius: 0px;
+  margin-left: 10px;
+}
+
+.hmPageContainer .contContainer .contHdr{
+  color: var(--secColor);
+  font-size: 35px;
+}
+
+.hmPageContainer .contContainer .contDesc{
+  color: var(--accentColor);
+}
+
+.hmPageContainer .contactWrapper{
+  background: url(./Images/contactBack.png);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.cntcFrmCls{
+  background: white;
+  max-width: 600px;
+  padding: 25px 40px;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px #00000041;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cntcFrmCls .primButton{
+  margin-top: 25px;
+}
+
+.mnFooter .mnContnt{
+  padding-top: 30px;
+  width: max-content;
+}
+
+.inrDiv{
+  text-align: center;
+  background: #13526F;
+  padding: 10px 0px;
+}
+
+.inrDiv:nth-child(2){
+  background: #1D7DA9;
+}
+
+.inrDiv:nth-child(3){
+  background: #25A1DA;
+}
+
+.inrDiv:nth-child(4){
+  background: #155B7C;
+}
+
+.mnFooter .mnContnt .stLnks{
+  margin-top: 20px;
+}
+
+.mnFooter .mnContnt .stLnks a, .mnFooter .mnContnt .stLnks p{
+  color: #707070;
+  font-size: 15px;
+  margin: 0 5px;
+}
+
+.cpyRts{
+  font-size: 13px;
+  color: #707070;
+}
+
+.cpyRts p{
+  border-top: 3px solid #F5F5F5;
+  padding: 5px 30px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.logContainer{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.backButton{
+  text-align: right;
+}
+
+.backButton .secButton button{
+  border-radius: 100px;
+  padding: 0;
+  min-width: unset;
+  width: 40px;
+  height: 40px;
+}
+
+.logContainer .contWrapper{
+  margin-top: 150px;
+  max-width: 500px;
+}
+
+.logContainer .contWrapper .txtFldWrp{
+  width: 100%;
+  max-width: 400px;
+}
+
+.logContainer .contWrapper .primButton button{
+  border-radius: 100px;
+  padding: 0;
+  min-width: unset;
+  width: 40px;
+  height: 40px;
+}
+
+.logContainer .contWrapper .info{
+  font-size: 14px;
+  color: var(--accentColor);
+  max-width: 450px;
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+.MuiAppBar-colorPrimary{
+  background: white !important;
+  color: black !important;
+}
+
+.actIcon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.dashbrdView{
+  padding: 40px;
+}
+
+.dashbrdView .cards{
+  text-align: center;
+  width: 284px;
+  height: 144px;
+  background: white;
+  box-shadow: 0 5px 15px #0000002c;
+  border-radius: 5px;
+  padding: 18px;
+  color: var(--primColor);
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.dashbrdView .cards:hover{
+  background: var(--primGrad);
+  color: white;
+}
+
+.dashbrdView .cards svg{
+  height: 56px;
+}
+
+.dashbrdView .cards svg path{
+  fill: var(--primColor);
+}
+
+.dashbrdView .cards:hover svg path{
+  fill: white;
+}
+
+.viewPort.conctDetls{
+  padding: 40px;
+}
+
+.oprtrCard{
+  background: white;
+  padding: 15px 25px;
+  box-shadow: 0 0px 15px #00000034;
+  /* width: max-content; */
+  border-radius: 10px;
+  margin-top: 45px;
+}
+
+.oprtrCard img.oprLogo{
+  width: 97px;
+  height: 97px;
+}
+
+.oprtrCard .oprDtls{
+  padding-left: 25px;
+}
+
+.oprtrCard .oprDtls .oprName{
+  font-size: 20px;
+  color: var(--primColor);
+}
+
+.oprtrCard ul{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.oprtrCard ul li{
+  display: flex;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.oprtrCard ul li span{
+  display: flex;
+  margin-right: 5px;
+}
+
+.oprtrCard ul li span svg{
+  width: 18px;
+  color: var(--accentColor);
+}
+
+.viewPort.conctDetls .leftContainer{
+  border-right: 4px solid #F5F5F5;
+  padding-right: 45px;
+}
+
+.viewPort .amtTtle{
+  color: var(--accentColor);
+  margin-bottom: 0px;
+}
+
+.viewPort .amtDtl{
+  font-size: 60px;
+  font-weight: bolder;
+  color: var(--primColor);
+  margin-top: 0px;
+}
+
+.viewPort .amtDtl span{
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.viewPort .clkPyBtn button{
+  height: unset;
+  min-height: 50px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.MuiTableRow-root.MuiTableRow-head{
+  background: var(--primGrad);
+  /* color: white !important; */
+}
+
+.MuiTableCell-root.MuiTableCell-head{
+  color: white;
+}
+
+.MuiTableSortLabel-root.MuiTableSortLabel-active{
+  color: white !important;
+}
+
+.divWthMdl .MuiButton-outlinedPrimary{
+  padding: 5px !important;
+  border: none !important;
+  min-width: unset;
+  height: unset !important;
+  border-radius: 100px;
+  color: red;
+}
+
+.MuiPaper-root.MuiDialog-paper{
+  min-width: 450px;
+}
+
+.MuiTableContainer-root table.MuiTable-root{
+  min-width: unset !important;
+}
+
+.nmbrOfusrsDtls{
+  border-bottom: 5px solid #F5F5F5;
+}
